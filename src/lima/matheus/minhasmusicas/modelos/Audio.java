@@ -1,14 +1,22 @@
-package lima.matheus.modelos;
+package lima.matheus.minhasmusicas.modelos;
 
 public class Audio {
     private String titulo;
     private double duracao;
     private int totalReproducoes;
     private int curtidas;
-    private double classificacao;
+    private int classificacao;
     private int somaCurtidas;
     private int somaReproducoes;
     private int somaClassificacao;
+    protected int compartilhamentos;
+    protected int somaCompartilhamentos;
+
+    public void somaCompartilhar(int compartilhar) {
+        somaCompartilhamentos += compartilhar;
+        compartilhamentos++;
+    }
+
 
     public void avalia(int nota) {
         somaClassificacao += nota;
@@ -45,23 +53,15 @@ public class Audio {
         return totalReproducoes;
     }
 
-    public void setTotalReproducoes(int totalReproducoes) {
-        this.totalReproducoes = totalReproducoes;
-    }
-
     public int getCurtidas() {
         return curtidas;
     }
 
-    public void setCurtidas(int curtidas) {
-        this.curtidas = curtidas;
-    }
-
-    public double getClassificacao() {
+    public int getClassificacao() {
         return classificacao;
     }
 
-    public void setClassificacao(double classificacao) {
+    public void setClassificacao(int classificacao) {
         this.classificacao = classificacao;
     }
 
@@ -71,6 +71,7 @@ public class Audio {
         System.out.println("Total de reproduções: " + this.totalReproducoes);
         System.out.println("Total de curtidas: " + this.curtidas);
         System.out.println("Classificação: " + this.classificacao);
+        System.out.println("Compartilhamentos: " + this.compartilhamentos);
     }
 
 
