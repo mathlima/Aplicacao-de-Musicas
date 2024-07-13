@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31d2b891-f3ad-4440-9c5c-e10f0b8c51be" name="Changes" comment="">
+    <list default="true" id="31d2b891-f3ad-4440-9c5c-e10f0b8c51be" name="Changes" comment="inclusao compartilhamentos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Acoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Acoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/MinhasPreferidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/MinhasPreferidas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Musicas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Podcasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/modelos/Podcasts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lima/matheus/minhasmusicas/principal/Main.java" afterDir="false" />
@@ -29,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mathlima"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mathlima&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mathlima/Aplicacao-de-Musicas.git",
-    "accountId": "c72e55cc-de43-4c6c-9958-6a1bd6264c66"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mathlima/Aplicacao-de-Musicas.git&quot;,
+    &quot;accountId&quot;: &quot;c72e55cc-de43-4c6c-9958-6a1bd6264c66&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -69,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720740082720</updated>
     </task>
+    <task id="LOCAL-00001" summary="inclusao compartilhamentos">
+      <option name="closed" value="true" />
+      <created>1720807115396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720807115396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inclusao compartilhamentos" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclusao compartilhamentos" />
   </component>
 </project>

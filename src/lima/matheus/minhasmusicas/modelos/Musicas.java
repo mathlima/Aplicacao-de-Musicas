@@ -31,16 +31,22 @@ public class Musicas extends Audio implements Acoes {
 
     @Override
     public void reproduzir() {
+        System.out.println("\nVocê está ouvindo " + getTitulo() + " do artista " + getArtista());
+        System.out.println("\n");
         reprocucoesSoma(1);
     }
 
     @Override
     public void curtir() {
+        System.out.println("\nVocê acabou de curtir " + getTitulo() + " do artista " + getArtista());
+        System.out.println("\n");
         curtidasSoma(1);
     }
 
     @Override
     public void compartilhar() {
+        System.out.println("\nVocê acabou de compartilhar " + getTitulo() + " do artista " + getArtista());
+        System.out.println("\n");
             somaCompartilhar(1);
     }
 
