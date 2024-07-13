@@ -1,13 +1,8 @@
 package lima.matheus.minhasmusicas.principal;
-
-import lima.matheus.minhasmusicas.modelos.MinhasPreferidas;
 import lima.matheus.minhasmusicas.modelos.Podcasts;
 import lima.matheus.minhasmusicas.modelos.Musicas;
-
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
@@ -43,7 +38,7 @@ public class Main {
         musica2.setDuracao(3);
         musica2.setClassificacao(10);
 
-        int opcao = 2;
+
 
         String menuMusicas = """
                 Esta é sua playlist de musicas, qual você deseja ouvir?
@@ -66,6 +61,7 @@ public class Main {
                 0 - Sair
                 """;
         System.out.println(menuInicial);
+        int opcao = 10;
         opcao = leitor.nextInt();
 
         while (opcao != 0) {
@@ -87,10 +83,6 @@ public class Main {
                         musica1.compartilhar();
                         System.out.println(menuCurteCompartilha);
                         opcaoMenuCurteCompartilhaMusicas = leitor.nextInt();
-                        } else {
-                        System.out.println("Opção inválida. Retornando ao menu inicial.");
-                        System.out.println(menuInicial);
-                        opcao = leitor.nextInt();
                         }
                 } else if (opcao == 0) {
                     System.out.println(menuInicial);
@@ -109,14 +101,10 @@ public class Main {
                             musica2.compartilhar();
                             System.out.println(menuCurteCompartilha);
                             opcaoMenuCurteCompartilhaMusicas = leitor.nextInt();
-                        } else {
-                            System.out.println("Opção inválida. Retornando ao menu inicial.");
-                            System.out.println(menuInicial);
-                            opcao = leitor.nextInt();
                         }
                 }
                 else {
-                    System.out.println("Opção inválida. Retornando ao menu inicial.");
+                    System.out.println("Retornando ao menu inicial.");
                     System.out.println(menuInicial);
                     opcao = leitor.nextInt();
                 }
@@ -139,10 +127,6 @@ public class Main {
                             podcasts1.compartilhar();
                             System.out.println(menuCurteCompartilha);
                             opcaoMenuCurteCompartilhaPodcasts = leitor.nextInt();
-                        } else {
-                            System.out.println("Opção inválida. Retornando ao menu inicial.");
-                            System.out.println(menuInicial);
-                            opcao = leitor.nextInt();
                         }
                 } else if (opcao == 0) {
                     System.out.println(menuInicial);
@@ -161,14 +145,10 @@ public class Main {
                             podcasts2.compartilhar();
                             System.out.println(menuCurteCompartilha);
                             opcaoMenuCurteCompartilhaPodcasts = leitor.nextInt();
-                        } else {
-                            System.out.println("Opção inválida. Retornando ao menu inicial.");
-                            System.out.println(menuInicial);
-                            opcao = leitor.nextInt();
                         }
                 }
                 else {
-                    System.out.println("Opção inválida. Retornando ao menu inicial.");
+                    System.out.println("Retornando ao menu inicial.");
                     System.out.println(menuInicial);
                     opcao = leitor.nextInt();
                 }
