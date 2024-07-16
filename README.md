@@ -4,6 +4,10 @@
 
 Este é um projeto desenvolvido como parte dos meus estudos em programação, focado em aplicar conceitos de orientação a objetos, encapsulamento, herança e polimorfismo. Este repositório contém a implementação de um sistema de música, onde modelei o projeto em classes, com atributos e métodos diversos, seguindo as melhores práticas de programação orientada a objetos.
 
+Instanciei duas músicas e dois podcasts, adicionando informações em seus atributos e sobrescrevendo os métodos em cada classe conforme a necessidade.
+Cada classe de música e podcast possui métodos específicos para suas funcionalidades.
+A aplicação permite a reprodução, curtidas e compartilhamento de músicas e podcasts.
+
 <h1 align="center"> Status do projeto </h1>
 
 ![Badge concluído](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUÍDO&color=GREEN&style=for-the-badge)
@@ -15,11 +19,11 @@ Este é um projeto desenvolvido como parte dos meus estudos em programação, fo
 - `Herança:` Reaproveitamento de código através da criação de superclasses e subclasses.
 - `Polimorfismo:` Implementação de métodos que se comportam de maneira diferente conforme a classe específica utilizada.
 - `Interfaces:` Definição de contratos para as classes, garantindo a implementação de métodos essenciais.
+- `Reprodução de Conteúdo:` Capacidade de reproduzir, curtir e compartilhar músicas e podcasts.
 
 <h3 align="center"> 
 
-
-https://github.com/mathlima/CarrinhoDeCompra-Java/assets/52716331/e56c074b-ae83-4b34-b875-66d72ec0996f
+https://github.com/user-attachments/assets/8608c932-446c-4553-abee-7a27df184ae5
 
 
 <h1 align="center"> 📁 Acesso ao projeto </h1>
